@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/(.*)",
-            "destination": "/backend/main.py"
+            "destination": "/api/index.py"
         },
         {
             "source": "/(.*)",
@@ -10,7 +10,7 @@
         }
     ],
     "functions": {
-        "backend/main.py": {
+        "api/index.py": {
             "includeFiles": "backend/**"
         }
     },
