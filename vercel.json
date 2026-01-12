@@ -16,5 +16,5 @@
     },
     "buildCommand": "cd frontend && npm install && npm run build",
     "outputDirectory": "frontend/dist",
-    "installCommand": "pip install -r backend/requirements.txt && cd frontend && npm install"
+    "installCommand": "cd frontend && npm install"
 }
